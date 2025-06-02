@@ -13,7 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   
-  "homepage": "https://cy.sepagan07@gmail.com.github.io/cy-portfolio-official",
+  "homepage": "https://cy-sepagan-dev.github.io/cy-portfolio-official",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
