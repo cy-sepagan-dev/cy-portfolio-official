@@ -5,16 +5,12 @@ import ProjectShow from "./pages/ProjectShow";
 // import Contact from "./pages/Contact";
 
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/">Projects</a></li>
-        </ul>
-      </nav>
+      <Navbar />
        <Router>
         <Routes>
           <Route path="/" element={<Home/>}/>
