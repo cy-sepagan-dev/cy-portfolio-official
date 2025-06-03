@@ -1,9 +1,19 @@
-function Home() {
+import About from "./homepage/About";
+import Contact from "./homepage/Contact";
+import Hero from "./homepage/Hero";
+import Projects from "./homepage/Projects";
+import Services from "./homepage/Services";
+
+const Home = () => {
     return (
-        <div className="p-8 text-center">
-            <h1 className="text-4x1 font-bold">Welcome to my Portfolio</h1>
-            <p className="mt-4 text-gray-600">Frontend Developer | React & Tailwind</p>
-        </div>
+        <>
+            <Hero />
+            <About />
+            <Services />
+            <Projects /> 
+            <Contact />      
+        </>
+
     );
 }
 
