@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .heading-1 {
+    @apply text-h1 text-gray-900 font-bold;
+  }
+
+  .heading-2 {
+    @apply text-h2 text-gray-800 font-semibold;
+  }
+
+  .body-text {
+    @apply text-body text-gray-700;
+  }
+
+  .small-text {
+    @apply text-small text-gray-500;
+  }
+}
